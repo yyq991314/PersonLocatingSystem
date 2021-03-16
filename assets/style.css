@@ -1,0 +1,295 @@
+#indexbread,#addbread{
+	padding-left: 100px;
+}
+
+.top{
+	width:100%;
+	height:100px;
+	background:  #2C3E50;
+	border:1px solid #2C3E50;
+	opacity:1;
+}
+h3{
+	color: white;
+	margin-left: 130px;
+	font-size: 30px;
+}
+.topa{
+	position: absolute;
+	right: 50px;
+	top:50px;
+	color: white;
+	font-size: 20px;
+}
+#topimage{
+	position: absolute;
+	margin-left:25px;
+	margin-top:5px;
+}
+
+/*nav*/
+li{
+	list-style-type: none;
+	float: left;
+	margin-top:-17px;
+	width: 50px;
+	height: 32px;
+}
+.nav{
+	width: 100%;
+	height: 37px;
+	border:1px solid #CCCCCC;
+	background-color: #CCCCCC;
+}
+.nava{
+	text-decoration:none;
+	padding-left: 10px;
+}
+li{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:7px;
+}
+ul{
+	margin-left: -42px;
+}
+li:hover{
+	background-color: #8B8989;
+}
+
+
+
+/*list*/
+table{
+	border-collapse: collapse;
+	width:90%;
+	margin:auto;
+	margin-bottom:20px;
+	margin-top:20px;
+	border:2px solid #ddd;
+}
+td{
+	border:1px dotted #000;
+	padding: 10px;
+}
+tr{
+	text-align: center;
+}
+tr:first-child{
+	font-size:15px;
+	padding:5px;
+}
+a{
+	text-decoration: none;
+	
+}
+
+/*footer*/
+.footer{
+	height:50px;
+	width:100%;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}
+/*add*/
+#addfrom>input,#gender,#st_post{
+	width: 300px;
+	height: 25px;
+	margin-left: 100px;
+	margin-top:15px;
+}
+#st_post{
+	margin-top: 20px;
+	width: 300px;
+	height: 25px;
+}
+#addfieldset{
+	width:90%;
+	height:550px;
+	border:2px solid black;
+	margin-top:20px;
+	padding-top:10px;
+	margin-left: 5%;
+}
+#btn1{
+	margin-top:20px;
+	margin-left: 100px;
+	width:60px;
+	height:30px;
+}
+#btn2{
+	margin-top:20px;
+	margin-left: 30px;
+	width:60px;
+	height:30px;
+}
+
+#filechoose{
+	position: absolute;
+	left: 800px;
+	top:250px;
+	
+}
+#previewimg{
+	position: relative;
+	left:100px;
+	margin-bottom: -150px;
+}
+/*search*/
+.search{
+	margin-top:20px;
+	width: 100%;
+}
+#condition{
+	width: 300px;
+	height:25px;
+	margin-left: 20px;
+}
+#btnsearch{
+	left:1380px;
+	position: absolute;
+}
+#bread{
+	margin-left:75px;
+	display:block;
+	margin-top:10px;
+}
+#tablesearch{
+	border-collapse: collapse;
+	width:90%;
+	margin:auto;
+	margin-bottom:20px;
+	margin-top:20px;
+	border:2px solid #ddd;
+}
+td{
+	border:1px dotted #000;
+	padding: 10px;
+}
+tr{
+	text-align: center;
+}
+tr:first-child{
+	font-size:15px;
+	padding:5px;
+}
+#excel{
+	display:block;
+	position: absolute;
+	left:1380px;
+	top:240px;
+
+}
+#searchfieldset{
+	width:90%;
+	height:60px;
+	border:2px solid black;
+	margin-top:20px;
+	padding-top:10px;
+	margin-left: 5%;
+}
+
+/*updata*/
+#updatafrom>input,#updatafrom>select{
+	width: 300px;
+	height: 25px;
+	margin-left:10px;
+	margin-top:15px;
+}
+#updatafrom>label{
+	width: 80px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left:100px;
+}
+#updatasubmit{
+	position: absolute;
+	display: block;
+	left:296px;
+	color:##CCCCCC ;
+}
+#updatafieldset{
+	width:90%;
+	height:550px;
+	border:2px solid black;
+	margin-top:20px;
+	padding-top:10px;
+	margin-left: 5%;
+}
+#filechoose{
+	position: absolute;
+	left: 800px;
+	top:250px;
+	
+}
+/*load*/
+.login{
+	width: 30%;
+	height: 250px;
+	margin-left:1000px;
+	font-size: 16px;
+	padding-left: 20px;
+	margin-top:70px;
+}
+#pwd,#user{
+	margin-left:80px;
+	width: 276px;
+    height: 45px;
+    background:none;
+    border: 2px solid rgba(255,255,255,.4);
+    border-radius: 5px;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:15px;
+    color:#fff;
+    padding-left:30px;
+    margin-bottom:20px;
+}
+#radio1{
+	margin-left: 80px;
+}
+#radio2{
+	margin-left: 30px;
+}
+#btnlogin{
+	margin: 20px 0 0 80px; 
+	width: 130px;
+	height: 48px;
+	border-radius: 4px;
+    border: 1px solid #253737;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6da5a3), to(#416b68));
+    box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    text-shadow: #333333 0 1px 0;
+    color: #e1e1e1;
+    font-size: 15px;
+}
+a{
+	text-decoration: none;
+}
+.ima{
+	width:450px;
+	height:400px;
+	float: left;
+	margin-left: 500px;
+	margin-top:-60px;
+}
+.container2{
+	height:820px;
+	width: 99%;
+	position: absolute;
+	background-image: url(../images/background.png);
+}
+.login{
+	margin-left: 600px;
+	margin-top:100px;
+	width: 500px;
+	padding: 4%;
+	border-radius: 5px;
+	background-clip: padding-box;
+	box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+	border: 1px solid rgba(0,0,0,.2);
+	overflow: hidden;
+}
